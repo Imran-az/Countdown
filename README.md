@@ -112,9 +112,30 @@ Using **Framer Motion**, the interface feels more dynamic, responsive, and visua
 - react-draggable: This was to make components draggable
 - framer-motion: This allowed me to implement the animations on the timer and menu bar
 
-
+## 🛠 **Installation & Setup**
+## 📌 How to Clone and Run This Project Locally  
+Follow these steps to **clone the repository and run it locally** on your machine.  
+---
+## 🚀 1. Clone the Repository from GitHub  
+First, open your terminal and run:  
+```sh
+git clone https://github.com/Imran-az/Countdown.git
+```
+If there are any issues with the above line go to code on top right and click clone
+cd into desired directory:
+```sh
+cd YOUR-REPO
+```
+Then Install any Dependencies :
+```sh
+npm install
+```
+To run the code:
+```sh
+npm run dev
+```
 ## 🛠 **RUNNING THE APPLICATION**
-Since I used NodeJs, I leveraged Vercel which allowed me to deploy the website and allow users to easily open the website, without going through the hassle of cloning and installling all the dependencies, please click the link below or under the about section or at the top of this README to run the website.
+You can also run this deployable link 
 
 **LINK: **
 
