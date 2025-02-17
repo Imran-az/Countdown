@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 🌙 Dark Mode Support */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,7 +22,6 @@ body {
   padding: 0;
 }
 
-/* ✅ Sidebar Menu (Edit Panel) */
 .edit-container {
   position: fixed;
   top: 0;
@@ -42,7 +40,6 @@ body {
   overflow-y: auto;
 }
 
-/* ✅ Sidebar Responsive Adjustments */
 @media (max-width: 768px) {
   .edit-container {
     width: 100%;
@@ -50,7 +47,6 @@ body {
   }
 }
 
-/* ✅ Input and Button Styling */
 input, select, button {
   width: 100%;
   max-width: 250px;
@@ -68,7 +64,6 @@ input, select, button {
   margin: 8px auto; 
 }
 
-/* ✅ Enhanced Color Picker & Font Selectors */
 .color-picker-container {
   display: flex;
   flex-direction: column;
@@ -83,7 +78,7 @@ input, select, button {
   align-items: center;
   font-size: 16px;
   font-weight: bold;
-  color: rgb(254, 248, 248); /* Adjust as needed */
+  color: rgb(254, 248, 248);
   margin-top: 2px;
 }
 
@@ -135,7 +130,6 @@ input.countdown-input {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* ✅ File Upload Buttons */
 .bg-input, .font-upload {
   width: 100%;
   max-width: 250px;
@@ -153,7 +147,7 @@ input.countdown-input {
   transform: scale(1.05);
 }
 
-/* ✅ Section Divider */
+
 .divider {
   width: 100%;
   border-top: 4px solid rgba(255, 255, 255, 0.5);
@@ -161,14 +155,13 @@ input.countdown-input {
   opacity: 0.8;
 }
 
-/* ✅ Improve Labels */
 label {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* ✅ Fixed Edit Button */
+
 .Edit-button {
   padding: 10px 25px;
   background: #123ead;
@@ -178,29 +171,25 @@ label {
   font-size: 16px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  position: fixed; /* Fixes button position regardless of scrolling */
-  bottom: 50px; /* Moves button 20% lower from the middle of the screen */
-  left: 50%; /* Centers the button */
-  transform: translate(-50%, 50%); /* Ensures true centering */
-  z-index: 1000; /* Ensures it stays above other elements */
+  position: fixed;
+  bottom: 50px; 
+  left: 50%; 
+  transform: translate(-50%, 50%); 
+  z-index: 1000; 
 }
 
-/* ✅ Hover Effect */
+
 .Edit-button:hover {
   background: #0d1b89;
 }
 
-/* ✅ Ensure Button Size Stays the Same on All Screens */
 @media (max-width: 768px), (max-width: 480px) {
   .Edit-button {
-    padding: 10px 25px; /* Keeps original padding */
-    font-size: 16px; /* Keeps original font size */
+    padding: 10px 25px; 
+    font-size: 16px; 
   }
 }
 
-
-
-/* ✅ Close Button */
 .close-button {
   background: #df2804;
   color: white;
@@ -218,7 +207,6 @@ label {
   transform: scale(1.05);
 }
 
-/* ✅ Responsive Button Adjustments */
 @media (max-width: 768px) {
   .close-button {
     padding: 10px;
