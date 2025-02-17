@@ -124,7 +124,7 @@ Follow these steps to **clone the repository and run it locally** on your machin
 First, open your terminal and run:  
 
 ```sh
-git clone (https://github.com/Imran-az/Countdown.git)
+git clone https://github.com/Imran-az/Countdown.git
 ```
 cd into desired directory:
 ```sh
