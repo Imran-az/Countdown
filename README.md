@@ -6,7 +6,7 @@ A fully customizable countdown tool that allows users to **set a date, upload a 
 
 I have deployed this Countdown Timer on **Vercel**, so you can access it anytime!
 
- **Click below to view the deployed website:**
+ **CLICK BELOW TO VIEW THE DEPLOYED WEBSITE:**
 👉 [Countdown Timer on Vercel](https://countdown-timer-pied.vercel.app/)
 
 This deployment ensures that the latest version of the project is always available online with fast performance and easy accessibility.
@@ -113,29 +113,11 @@ Using **Framer Motion**, the interface feels more dynamic, responsive, and visua
 - framer-motion: This allowed me to implement the animations on the timer and menu bar
 
 
-## 🛠 **Installation & Setup**
-## 📌 How to Clone and Run This Project Locally  
+## 🛠 **RUNNING THE APPLICATION**
+Since I used NodeJs, I leveraged Vercel which allowed me to deploy the website and allow users to easily open the website, without going through the hassle of cloning and installling all the dependencies, please click the link below or under the about section or at the top of this README to run the website.
 
-Follow these steps to **clone the repository and run it locally** on your machine.  
+**LINK: **
 
----
+https://countdown-timer-pied.vercel.app/
 
-## 🚀 1. Clone the Repository from GitHub  
-First, open your terminal and run:  
-
-```sh
-git clone https://github.com/Imran-az/Countdown.git
-```
-cd into desired directory:
-```sh
-cd YOUR-REPO
-```
-Then Install any Dependencies :
-```sh
-npm install
-```
-To run the code:
-```sh
-npm run dev
-```
 
