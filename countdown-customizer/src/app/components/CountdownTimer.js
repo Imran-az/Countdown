@@ -30,7 +30,7 @@ const CountdownTimer = ({ targetDate, color, textSize, font }) => {
                 clearInterval(interval);
                 setTimeLeft({ days: 0,
                             hours: 0,
-                            minute: 0,
+                            minutes: 0,
                             seconds: 0, });
             } else {
                 setTimeLeft({
