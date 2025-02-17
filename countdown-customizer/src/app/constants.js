@@ -26,7 +26,7 @@ export const DEFAULT_FONTS = {
 export const DEFAULT_DAYS = {
     days: 0,
     hours: 0,
-    minutes: 0,
+    minute: 0,
     seconds: 0,
 };
 

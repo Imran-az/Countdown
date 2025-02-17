@@ -13,7 +13,10 @@ const CountdownTimer = ({ targetDate, color, textSize, font }) => {
         minutes: useRef(),
         seconds: useRef(),
     }
-    const [timeLeft, setTimeLeft] = useState({ ...DEFAULT_DAYS});
+    const [timeLeft, setTimeLeft] = useState({ days: 0,
+                                                hours: 0,
+                                                minutes: 0,
+                                                seconds: 0,});
 
     useEffect(() => {
         if (!targetDate) return;
@@ -25,7 +28,10 @@ const CountdownTimer = ({ targetDate, color, textSize, font }) => {
 
             if (difference <= 0) {
                 clearInterval(interval);
-                setTimeLeft({ ...DEFAULT_DAYS });
+                setTimeLeft({ days: 0,
+                            hours: 0,
+                            minutes: 0,
+                            seconds: 0, });
             } else {
                 setTimeLeft({
                     days: Math.floor(difference / (1000 * 60 * 60 * 24)),
